@@ -1,0 +1,5 @@
+.formations{
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: repeat(2, 24px 1fr);
+}

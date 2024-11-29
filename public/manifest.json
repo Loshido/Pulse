@@ -1,9 +1,31 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "qwik-project-name",
-  "short_name": "Welcome to Qwik",
+  "name": "Solis",
+  "short_name": "solis",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "A Qwik project app."
+  "description": "Curriculum vitae Livio Ardoin",
+  "icons": [
+    {
+        "src": "img/fav-24.png",
+        "sizes": "24x24",
+        "type": "image/png"
+    },
+    {
+        "src": "img/fav-32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+    },
+    {
+        "src": "img/fav-64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+    },
+    {
+        "src": "img/fav-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+    }
+  ]
 }
