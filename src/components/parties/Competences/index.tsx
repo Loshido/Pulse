@@ -1,4 +1,4 @@
-import { component$, type PropsOf, Slot, useStylesScoped$ } from "@builder.io/qwik";
+import { component$, Slot, type PropsOf, useStylesScoped$ } from "@builder.io/qwik";
 
 export const Item = component$((props: PropsOf<'div'>) => {
     return <div {...props} class={[props.class?.toString(),
@@ -11,20 +11,20 @@ export const SmallItem = component$((props: PropsOf<'div'>) => {
     return <div {...props} class={[props.class?.toString(),
         "border border-black border-collapse border-opacity-5 text-xs p-1"
     ]}>
-        <Slot/>
+        <Slot/> 
     </div>
 })
 
-import style from "./competences.css?inline"
 import { LuActivity, LuChevronsUp } from "@qwikest/icons/lucide";
+import style from "./style.css?inline"
 export default component$(() => {
     useStylesScoped$(style);
 
-    return <>
+    return <section>
         <h2 class="font-semibold text-xl">
             Compétences
         </h2>
-
+        
         <div class="grille grid-flow-dense sm:grid-flow-row text-black text-opacity-65 p-2">
             <Item class="col-span-2">
                 Typescript
@@ -55,7 +55,7 @@ export default component$(() => {
                     </div>
                 </SmallItem>
                 <SmallItem>
-                    Nodejs
+                    Node.js
                 </SmallItem>
                 <SmallItem>
                     Bun
@@ -68,7 +68,7 @@ export default component$(() => {
                     Blender
                 </SmallItem>
                 <SmallItem>
-                    Postgis
+                    PostGIS
                 </SmallItem>
             </div>
             <Item>
@@ -112,5 +112,5 @@ export default component$(() => {
                 Maîtrise
             </div>
         </div>
-    </>
+    </section>
 })

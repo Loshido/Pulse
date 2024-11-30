@@ -7,7 +7,8 @@ import {
     Competences, 
     Langues, 
     Projets,
-    Partie
+    SavoirFaire,
+    Partie,
 } from "~/components/parties"
 import Liens from "~/components/parties/Liens";
 export default component$(() => {
@@ -19,8 +20,9 @@ export default component$(() => {
             <Partie>
                 <Formations/>
             </Partie>
-            <Partie>
+            <Partie class="flex flex-col sm:flex-row flex-wrap gap-2">
                 <Competences/>
+                <SavoirFaire/>
             </Partie>
             <Partie>
                 <Langues/>
@@ -34,7 +36,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-    title: "Test",
+    title: "Livio",
     meta: [
     ],
 };

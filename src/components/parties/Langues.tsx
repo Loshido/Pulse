@@ -27,7 +27,7 @@ export default component$(() => {
             <li>
                 🇯🇵  <span class="font-medium text-black text-opacity-50">
                     Japonais
-                    </span> A1 Etudes supérieurs,　<span class="italic">
+                    </span> A1 Études supérieures,　<span class="italic">
                         わたしは　<span 
                             class="underline underline-offset-4">
                             リビオ

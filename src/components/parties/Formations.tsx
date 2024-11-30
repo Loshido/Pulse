@@ -15,7 +15,7 @@ export default component$(() => {
             </div>
             <div class="row-span-2">
                 <h3 class="font-medium text-lg text-black text-opacity-65">
-                    Isen Méditerranée (Formation BAC+5, Diplôme d'ingénieur)
+                    ISEN Méditerranée (Formation BAC+5, Diplôme d'ingénieur)
                 </h3>
                 <p>
                     2024 → 2029

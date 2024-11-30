@@ -7,7 +7,7 @@ export default component$(() => {
             Livio Ardoin
         </h1>
         <div>
-            Etudiant en 1ère année de prépa ingénieur à l'
+            Étudiant en 1ère année de prépa ingénieur à l'
             <span class="font-medium underline decoration-red-200 underline-offset-4">
                 <Hover y={110} align="right">
                     ISEN Méditerranée
